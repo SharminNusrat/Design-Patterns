@@ -8,7 +8,7 @@ public class Demo {
 		bs.setShopName("Novelty");
 		bs.loadData();
 		
-		//bs.getBooks().remove(3);   // Because our copying is shallow copy, the 4th indexed book will remove from both the bookshops
+		//bs.getBooks().remove(3);   // Because our copying is shallow copy, the 4th indexed book will be removed from both the bookshops
 		
 		System.out.println(bs);
 		
