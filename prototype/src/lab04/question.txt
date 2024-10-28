@@ -1,0 +1,2 @@
+Part 1: Prototype
+Suppose you are developing a product catalog system for an e-commerce platform. In this platform, many products share core attributes (e.g., name, category, price) but require specific customizations. For example, clothing items may come in multiple colors and sizes, while electronic products  may vary in storage capacities and battery life. You have to implement the Prototype design pattern to create product variants with slight customizations. To manage these prototypes, you also need to implement a prototype registry.
