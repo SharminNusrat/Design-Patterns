@@ -16,6 +16,6 @@ public class Tablet implements Device{
 	
 	@Override
 	public String getDeviceDetails(String model) {
-		return "Tablet - Model: " + model;
+		return "Tablet - Model: " + this.model;
 	}
 }

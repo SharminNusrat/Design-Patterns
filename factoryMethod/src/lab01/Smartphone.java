@@ -16,6 +16,6 @@ public class Smartphone implements Device{
 	
 	@Override
 	public String getDeviceDetails(String model) {
-		return "Smartphone - Model: " + model;
+		return "Smartphone - Model: " + this.model;
 	}
 }

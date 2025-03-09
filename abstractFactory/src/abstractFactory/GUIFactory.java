@@ -2,6 +2,6 @@ package abstractFactory;
 
 public interface GUIFactory {
 
-	Button createButton();
-	Checkbox createCheckbox();
+	public abstract Button createButton();
+	public abstract Checkbox createCheckbox();
 }

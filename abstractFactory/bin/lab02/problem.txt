@@ -1,0 +1,5 @@
+Part 1: Abstract Factory									        [5 points]
+You are tasked with designing a software system for a furniture company that manufactures different styles of furniture, including Modern, Victorian, and Rustic. Each style includes products like Chair, Table and Sofa. You need to ensure that a complete set of furniture (Chair, Table, Sofa) produced for each style is consistent. Implement the scenario using the Abstract Factory pattern.
+
+Part 2: Singleton										        [5 points]
+Let's assume that each furniture product (e.g., Chair, Table, and Sofa) is manufactured with unique IDs. In a multithreading environment, if the factory is instantiated twice in two different threads, it is possible to have overlapping IDs for different furniture products. To avoid this issue, implement the Singleton pattern alongside the Abstract Factory solution from Part 1.
